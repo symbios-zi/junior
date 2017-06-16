@@ -1,0 +1,31 @@
+.about-wrap{
+	margin-top: 100px;
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+.about-wrap>img{
+	width: 100%;
+}
+.desc{
+	font-size: 18px;
+	padding: 10px 15px 15px 15px;
+}
+.start{
+	padding: 5px 10px;
+	border: 1px solid #32c24d;
+	color: #32c24d;
+	margin-left: 15px;
+}
+.start:hover{
+	color: #32c24d;
+}
+.start:visited{
+	color: #32c24d !important;
+}
+.start:active{
+	color: #32c24d !important;
+}
+.about-wrap>h5{
+	font-size: 16px;
+	font-weight: 400;
+}

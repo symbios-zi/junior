@@ -1,0 +1,90 @@
+.full-advert-dop {
+  /*width: 150px;*/
+  display: inline-block !important;
+  padding: 4px 9px;
+  margin-left: 30px;
+  /*background-color: #fff;*/
+  color: #32c24d;
+  border: 1px solid #32c24d;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.full-advert-desc {
+  color: #333;
+  font-size: 15px;
+}
+.advert-wrap{
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.advert-tel {
+  display: inline-block;
+  color: #333;
+}
+.advert-tel:last-child{
+  margin-left: 20px;
+}
+.admin-buttons-w {
+  margin-top: 15px;
+}
+.cabinet-success {
+  color: #32c24d;
+  border-color: #32c24d;
+}
+.cabinet-success:hover {
+  color: #fff;
+  background-color: #32c24d;
+}
+
+.admin-new-counter {
+  position: relative;
+  margin: 0 auto 20px auto;
+  width: 50px;
+  height: 50px;
+  border:1px solid #1a7cf9;
+  border-radius: 50%;
+  color: #1a7cf9;
+  justify-content: center;
+}
+.counter {
+  justify-content: center;
+  font-size: 20px;
+}
+.admin-new-counter-plus {
+  position: absolute;
+  margin-left: -10px;
+}
+/*  Модальное окно - Блокирование   */
+.blocked-item {
+  padding-left: 0;
+}
+.blocked-item>a {
+  display: block;
+  padding: 10px 15px;
+  background-color: #edeef0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/*  Модальное окно - Блокирование   */
+.cabinet-stopped {
+  padding: 5px 10px;
+  border: 1px solid #f74040;
+  color: #f74040;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+@media all and (max-width: 400px){
+  .cabinet-stopped{
+    margin-top: 10px;
+  }
+  /*  Ссылки Меню   */
+  .navbar-nav>li>a{
+    font-size: 20px;
+    padding: 0;
+  }
+}
+.cabinet-stopped:hover{
+  color: #F40B0B;
+  border-color: #F40B0B;
+}
